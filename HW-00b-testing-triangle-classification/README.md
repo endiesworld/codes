@@ -17,8 +17,8 @@ This project provides a Python implementation for classifying triangles based on
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd HW-00b-testing-triangle-classification
+   git clone https://github.com/endiesworld/codes.git
+   cd codes/HW-00b-testing-triangle-classification
    ```
 2. **Install dependencies using [uv](https://github.com/astral-sh/uv):**
    ```sh
