@@ -1,7 +1,7 @@
 
 import requests
 
-def get_user_repos_and_commits(user_id):
+def get_user_repos_and_commits(user_id: str) -> list[tuple[str, int]]:
     """
     Given a GitHub user ID, returns a list of tuples (repo_name, num_commits)
     """
