@@ -1,5 +1,8 @@
 # .travis.yml for Python project
 language: python
+branches:
+  only:
+  - HW-003a
 python:
   - "3.12"
 install:
