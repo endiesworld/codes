@@ -1,0 +1,8 @@
+# .travis.yml for Python project
+language: python
+python:
+  - "3.12"
+install:
+  - pip install -r requirements.txt || pip install requests pytest
+script:
+  - pytest HW-003a-Develop-with-Testing-in-Mind/test/test_fetch_user_repo.py
