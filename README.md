@@ -1,6 +1,6 @@
 # Testing-Python Projects
 
-This project contains codes submitted as homework for SW647(Software Testing, Quality Assurance and Maintenance) assignments. 
+This project contains codes submitted as homework for SW647(Software Testing, Quality Assurance and Maintenance) assignments
 
 ## How to use
 
