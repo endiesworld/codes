@@ -1,6 +1,4 @@
-
 # HW-003a Develop with Testing in Mind
-
 
 [![CircleCI](https://circleci.com/gh/endiesworld/codes.svg?style=svg)](https://circleci.com/gh/endiesworld/codes)
 
@@ -16,8 +14,32 @@ pytest test/test_fetch_user_repo.py
 
 This repository is set up with CircleCI. Every push will trigger a build and run the tests. The badge above shows the current build status for the `HW-003a` branch.
 
-## CircleCI Setup
+## Project Structure
 
-1. The configuration file is at `.circleci/config.yml`.
-2. Enable your repository on https://circleci.com/ and follow the prompts.
-3. After your first build, the badge above will show your build status.
+HW-003a-Develop-with-Testing-in-Mind/
+├── .python-version
+├── pyproject.toml
+├── README.md
+├── uv.lock
+├── src/
+│   └── main.py
+├── test/
+│   └── test_fetch_user_repo.py
+└── ... (cache and metadata folders)
+
+
+**Key folders/files:**
+
+- `src/main.py`: Main application code (GitHub API logic).
+- `test/test_fetch_user_repo.py`: Unit tests for the main logic (uses mocking).
+- `pyproject.toml`, `requirements.txt`: Project dependencies.
+
+---
+
+## How to Run the Project
+
+1. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
