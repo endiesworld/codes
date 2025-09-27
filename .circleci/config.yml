@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: pip install -r requirements.txt
+      - run: pytest HW-03a-Develop-With-Testing-in-Mind/test/test_fetch_user_repo.py
       - run: pytest HW-03b-External-Dependencies-Isolation-Mocking/test/test_fetch_user_repo.py
 
 workflows:
