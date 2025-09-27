@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/endiesworld/codes.svg?style=svg)](https://circleci.com/gh/endiesworld/codes)
 
-This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests with mocking.
+This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests.
 
 ## How to run tests
 
