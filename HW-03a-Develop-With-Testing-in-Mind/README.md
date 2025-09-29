@@ -1,8 +1,8 @@
-# HW-003a Develop with Testing in Mind
+# HW-03a Develop with Testing in Mind
 
-[![CircleCI](https://circleci.com/gh/endiesworld/codes.svg?style=svg)](https://circleci.com/gh/endiesworld/codes)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/endiesworld/codes/tree/HW-003a.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/endiesworld/codes/tree/HW-003a)
 
-This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests with mocking.
+This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests.
 
 ## How to run tests
 
@@ -12,11 +12,11 @@ pytest test/test_fetch_user_repo.py
 
 ## Continuous Integration
 
-This repository is set up with CircleCI. Every push will trigger a build and run the tests. The badge above shows the current build status for the `HW-003a` branch.
+This repository is set up with CircleCI. Every push will trigger a build and run the tests. The badge above shows the current build status for the `HW-03a` branch.
 
 ## Project Structure
 
-HW-003a-Develop-with-Testing-in-Mind/
+HW-03a-Develop-with-Testing-in-Mind/
 ├── .python-version
 ├── pyproject.toml
 ├── README.md
@@ -26,7 +26,6 @@ HW-003a-Develop-with-Testing-in-Mind/
 ├── test/
 │   └── test_fetch_user_repo.py
 └── ... (cache and metadata folders)
-
 
 **Key folders/files:**
 
