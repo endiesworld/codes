@@ -27,7 +27,6 @@ HW-03a-Develop-with-Testing-in-Mind/
 │   └── test_fetch_user_repo.py
 └── ... (cache and metadata folders)
 
-
 **Key folders/files:**
 
 - `src/main.py`: Main application code (GitHub API logic).

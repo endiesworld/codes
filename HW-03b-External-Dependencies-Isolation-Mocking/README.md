@@ -1,6 +1,6 @@
 # HW-03b External Dependencies Isolation - Mocking
 
-[![CircleCI](https://circleci.com/gh/endiesworld/codes.svg?style=svg)](https://circleci.com/gh/endiesworld/codes)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/endiesworld/codes/tree/HW-03b.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/endiesworld/codes/tree/HW-03b)
 
 This project demonstrates how to use External Dependencies Isolation - Mocking, using GitHub API calls and unit tests with mocking.
 
@@ -26,7 +26,6 @@ HW-03b-External-Dependencies-Isolation-Mocking/
 ├── test/
 │   └── test_fetch_user_repo.py
 └── ... (cache and metadata folders)
-
 
 **Key folders/files:**
 
