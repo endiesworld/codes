@@ -1,8 +1,8 @@
 # HW-03a Develop with Testing in Mind
 
-[![CircleCI](https://circleci.com/gh/endiesworld/codes.svg?style=svg)](https://circleci.com/gh/endiesworld/codes)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/endiesworld/codes/tree/HW-003a.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/endiesworld/codes/tree/HW-003a)
 
-This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests with mocking.
+This project demonstrates how to develop with testing in mind, using GitHub API calls and unit tests.
 
 ## How to run tests
 
@@ -26,7 +26,6 @@ HW-03a-Develop-with-Testing-in-Mind/
 ├── test/
 │   └── test_fetch_user_repo.py
 └── ... (cache and metadata folders)
-
 
 **Key folders/files:**
 

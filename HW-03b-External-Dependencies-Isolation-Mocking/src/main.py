@@ -17,7 +17,7 @@ def get_user_repos_and_commits(user_id: str) -> list[tuple[str, int]]:
     result = []
     for repo in repos:
         repo_name = repo.get("name")
-        if not repo_name:
+        if not repo_name: 
             continue
         commits_url = f"https://api.github.com/repos/{user_id}/{repo_name}/commits"
         try:
