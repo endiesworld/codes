@@ -2,8 +2,6 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/endiesworld/codes/tree/HW-03b.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/endiesworld/codes/tree/HW-03b)
 
-This project demonstrates how to use External Dependencies Isolation - Mocking, using GitHub API calls and unit tests with mocking.
-
 ## How to run tests
 
 ```bash
